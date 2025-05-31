@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Mehta/OneDrive/Desktop/C++/C++ Basic",
-      "program": "c:/Users/Mehta/OneDrive/Desktop/C++/C++ Basic/build/Debug/outDebug",
+      "cwd": "c:/Users/Mehta/OneDrive/Desktop/C++/C++ Basic/Datatypes",
+      "program": "c:/Users/Mehta/OneDrive/Desktop/C++/C++ Basic/Datatypes/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

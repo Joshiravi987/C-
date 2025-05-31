@@ -7,7 +7,7 @@ int main(){
     float f = 12.5; //float
     double d = 10.545; //double
     char c = 'A'; //character
-    char c1[23] = "Hello World"; //string
+    char c1[23] = "Hello World"; //string̥
     bool b = false; //boolean
     //print all the datatypes
     cout<<"Integer: " << i << endl<<"Float :"<<f<<endl<<"Double: " << d << endl<<"Character: " << c << endl<<"String: " << c1 << endl<<"Boolean: " << b << endl;

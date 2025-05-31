@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Mehta/OneDrive/Desktop/C++/C++ Basic/Datatypes",
-      "program": "c:/Users/Mehta/OneDrive/Desktop/C++/C++ Basic/Datatypes/build/Debug/outDebug",
+      "cwd": "c:/Users/Mehta/OneDrive/Desktop/C++/.vscode/OOPS CONCEPT/inheritance",
+      "program": "c:/Users/Mehta/OneDrive/Desktop/C++/.vscode/OOPS CONCEPT/inheritance/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
