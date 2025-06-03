@@ -6,11 +6,10 @@ class student
 {
 public:
     int roll_no[5];
-    student()
-    {
+    student() {
         cout << "Enter roll numbers of 5 students: ";
-        for (int i = 0; i < 5; i++)
-        {
+        for
+        (int i = 0; i < 5; i++) {
             cin >> roll_no[i];
         }
     }
@@ -24,7 +23,7 @@ public:
         cout << endl;
     }
 };
-class student_info : student
+class student_info : public student
 {
 public:
     string name[5];
@@ -38,8 +37,6 @@ public:
     }
     void student_info_display()
     {
-        // parent class method call
-        student_display();
         cout << "Names of students are: ";
         for (int i = 0; i < 5; i++)
         {
@@ -62,8 +59,7 @@ public:
     }
     void student_marks_display()
     {
-        // child class method call
-        student_info_display();
+        
         cout << "Marks of students are: ";
         for (int i = 0; i < 5; i++)
         {
@@ -87,16 +83,41 @@ public:
     void student_subjects_display()
     {
         cout << "Subjects of students are: ";
-        //
-        student_marks_display();
+
         for (int i = 0; i < 5; i++)
         {
             cout << subjects[i] << endl;
         }
+    
     }
-};
+    };
+    class Result : public student_subjects
+    {
+        public :
+        int total;
+        double ave;
+        Result() : total(0), ave(0.0)
+        {
+             for (int i = 0; i < 5; i++)
+            {
+                total += marks[i];
+            }
+            ave = total / 5.0;
+        }
+            void display_result()
+            {
+                cout << "Total marks: " << total << endl;
+                cout << "Average marks: " << ave << endl;
+            }
+        };
+            
 int main()
 {
-    student_subjects ss;
+    Result ss;
+    ss.student_display();
+    ss.student_info_display();
+    ss.student_marks_display();
     ss.student_subjects_display();
+    ss.display_result();
+    return 0;
 }
