@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Mehta/OneDrive/Desktop/C++/Assignment C++/Module 3 introduction to opps programming/introduction to c++",
-      "program": "c:/Users/Mehta/OneDrive/Desktop/C++/Assignment C++/Module 3 introduction to opps programming/introduction to c++/build/Debug/outDebug",
+      "cwd": "c:/Users/Mehta/OneDrive/Desktop/C++/C++assessment",
+      "program": "c:/Users/Mehta/OneDrive/Desktop/C++/C++assessment/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
