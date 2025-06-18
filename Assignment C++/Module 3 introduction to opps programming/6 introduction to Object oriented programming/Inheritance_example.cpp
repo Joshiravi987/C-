@@ -1,0 +1,2 @@
+/*Write a program that implements inheritance using a base class Person and derived 
+classes Student and Teacher. Demonstrate reusability through inheritance.*/

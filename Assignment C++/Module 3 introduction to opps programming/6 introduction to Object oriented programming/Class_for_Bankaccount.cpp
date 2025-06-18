@@ -1,0 +1,3 @@
+/*Create a class BankAccount with data members like balance and member functions 
+like deposit and withdraw. Implement encapsulation by keeping the data members 
+private.  */
